@@ -1,12 +1,38 @@
 # Module 1
 
-> **Example module** from the IoT introduction class. Adjust the headings and tasks to match your actual course content.
+## Who am I?
 
-> When you start editing this file, remove this description.
->
-> Usually the first things you have to document are some inspirations hinting at what
-> you might be able to build in this class, a personal profile description regarding
-> programming expertise, previous MCU knowledge, creative qualities, and expectations
+### Programming experience?
+    - experience in basic Python/Data Analysis and basic web design via html, css and javascript?
+    - Django Framework, which combine all of the above
+
+### Microcontroller?
+    - worked a bit with Arduino and gyrosensors, transferring the sensor data per Arduino script to NodeRed and building an Interface in Node Red to visualize the data 
+
+### Configured a router, set an IP adress by hand, run ping/traceroute?
+    - ganz simpel den eigenen Heimrouter eingerichtet
+
+### Used Wireshark, tcpdump, packet capture?
+    - not yet
+
+### MQTT, Python, NodeRed, command-line, Git?
+    - Python, NodeRed
+    - using terminals and git to organize projects
+
+### What would you like to connect to what?
+    - Aufbau einer smarten Steuerung von Licht und Heizung 
+
+### What do you exect from this class?
+    - afterwards being able to create my own network for various devices
+
+## My pod
+[a link] (https://github.com/)
+
+## Pre-study-artefact
+
+
+## study log
+
 
 Module description
 
@@ -15,20 +41,35 @@ Module description
 > **How to use the learning goals.** Copy the module's learning goals from the course workbook into the block below. Keep the `LG1`, `LG2`, … IDs and a one-word keyword. In each task, write `Proves: LG2` (or link to `[LG2](#lg2)`) so you can find the evidence quickly at checkpoint time. In the **Evidence** line under each goal, link to the task that proves it.
 
 <a id="lg1"></a>
-### LG1 — `<keyword>`
+### LG1 — `<class-structure>`
 
 <copy the goal here>
 
 **Evidence:** [Task Inspirations](#task-inspirations)
 
 <a id="lg2"></a>
-### LG2 — `<keyword>`
+### LG2 — `<publish-subscribe-mqtt>`
 
 <copy the goal here>
 
 **Evidence:** [Task Personal Profile](#task-personal-profile)
 
 <a id="lg3"></a>
+### LG3 — `<nodeRed-workflow>`
+
+<copy the goal here>
+
+<a id="lg4"></a>
+### LG3 — `<sensor-wiring>`
+
+<copy the goal here>
+
+<a id="lg5"></a>
+### LG3 — `<OSI-TCP-compare>`
+
+<copy the goal here>
+
+<a id="lg6"></a>
 ### LG3 — `<keyword>`
 
 <copy the goal here>
