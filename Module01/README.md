@@ -134,7 +134,7 @@ The broker and Node-RED may be software on the same class server; the sketch sho
 
 > **How to use the learning goals.** Copy the module's learning goals from the course workbook into the block below. Keep the `LG1`, `LG2`, … IDs and a one-word keyword. In each task, write `Proves: LG2` (or link to `[LG2](#lg2)`) so you can find the evidence quickly at checkpoint time. In the **Evidence** line under each goal, link to the task that proves it.
 
-You can see the detailed achievements in the tasks above and in the respective Learning Goal section in Jans repository:
+You can see the detailed achievements in the respective Learning Goal section in Jans repository:
 [a link](https://github.com/JaGrHSBI/net-iot-hsbi-2026-portfolio/blob/main/Module01/README.md)
 
 ## Reflection 1
