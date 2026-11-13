@@ -1,15 +1,5 @@
 # Reflection 1
 
-> This is the only reflection file that spells out the prompts. fill in the [short description here]
-> In the future, copy the [reflection template](TEMPLATE.md) to the respective refnn.md file
-> and write your answers there.
-> Remove this note.
-
-# Reflection template
-
-> Copy this file to `ref01.md`, `ref02.md`, … and replace each `[short description here]`
-> with your answer. Keep each section short — a few sentences is plenty.
-
 ## Take-away
 
 What do you want to remember? What would be your advice?
@@ -18,13 +8,13 @@ What do you want to remember? What would be your advice?
 
 ## What was good?
 
-[short description here]
+Die positive/fröhliche Art des Dozenten war sehr erfrischend. Das Thema ist spannend.
 
 ## What was difficult?
 
 Where did you struggle? What was the root cause?
 
-[short description here]
+Die Aufgabenstellung war teilweise unverständlich gestellt und ging teilweise von nicht existierenden Dateien aus. Teilweise fühlen sich die Aufgabenstellungen als mehr oder weniger willkürlich zusammengefügte Sätze an, dass es auf den ersten Blick schweirig war zu erfassen, was jetzt von einem verlangt wird. Das wurde noch dadurch verstärkt, dass es keine ordentliche Einführung weder in das iotempire-teaching-Repository noch in Node-Red gab. Das meiste wurde wenn überhaupt eher nebenbei erklärt.
 
 ## Exploration and show stoppers
 

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="230" viewBox="0 0 2000 230" role="img" aria-labelledby="title description">
+  <title id="title">IoT temperature monitoring continuum</title>
+  <desc id="description">A DS18B20 sensor sends readings over 1-Wire to an ESP32 stick. The stick sends them over Wi-Fi to an access point, which forwards them over IP and TCP to an MQTT broker. Node-RED receives MQTT messages and serves a browser dashboard over HTTP.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+    <style>
+      .box { fill: #eff6ff; stroke: #2563eb; stroke-width: 3; rx: 12; }
+      .name { fill: #0f172a; font: 600 24px sans-serif; text-anchor: middle; }
+      .protocol { fill: #334155; font: 18px sans-serif; text-anchor: middle; }
+      .line { stroke: #334155; stroke-width: 3; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect class="box" x="20" y="105" width="200" height="75"/>
+  <text class="name" x="120" y="150">DS18B20 sensor</text>
+  <rect class="box" x="370" y="105" width="200" height="75"/>
+  <text class="name" x="470" y="150">ESP32 stick</text>
+  <rect class="box" x="720" y="105" width="200" height="75"/>
+  <text class="name" x="820" y="150">Room access point</text>
+  <rect class="box" x="1070" y="105" width="200" height="75"/>
+  <text class="name" x="1170" y="150">MQTT broker</text>
+  <rect class="box" x="1420" y="105" width="200" height="75"/>
+  <text class="name" x="1520" y="150">Node-RED</text>
+  <rect class="box" x="1770" y="105" width="210" height="75"/>
+  <text class="name" x="1875" y="150">Browser dashboard</text>
+
+  <line class="line" x1="220" y1="142" x2="355" y2="142"/>
+  <text class="protocol" x="290" y="75">1-Wire</text>
+  <line class="line" x1="570" y1="142" x2="705" y2="142"/>
+  <text class="protocol" x="640" y="65">Wi-Fi</text>
+  <text class="protocol" x="640" y="88">(IEEE 802.11)</text>
+  <line class="line" x1="920" y1="142" x2="1055" y2="142"/>
+  <text class="protocol" x="990" y="65">IP/TCP;</text>
+  <text class="protocol" x="990" y="88">MQTT PUBLISH</text>
+  <line class="line" x1="1270" y1="142" x2="1405" y2="142"/>
+  <text class="protocol" x="1340" y="65">MQTT over</text>
+  <text class="protocol" x="1340" y="88">TCP/IP</text>
+  <line class="line" x1="1620" y1="142" x2="1755" y2="142"/>
+  <text class="protocol" x="1690" y="65">HTTP over</text>
+  <text class="protocol" x="1690" y="88">TCP/IP</text>
+</svg>
