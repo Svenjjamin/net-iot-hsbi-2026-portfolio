@@ -1,9 +1,21 @@
 # Module 2
 
+## Network plan — the sketch, the subnet calculation, the SSID/channel, and the pod/group ID (pod<NN> / Gruppe ).
+## Router baseline — model, OpenWrt version, LAN/WAN addresses, MACs, SSH access, extroot status, broker status, open ports. No passwords, no eduroam credentials.
+## Study log — the running log: the theory you actually needed, the commands that surprised you, and the LLM answers you checked. This is not an essay and not a separate study phase.
+## Discussion log — one line per discussion: who listened, what they asked, what you changed. This is personal; the shared study log is still one per pod.
+## Vocabulary tracker — the Module 2 vocabulary table, copied with two extra columns: ✓ and Link / evidence. See the reference at the end for how to fill it.
+## Captures — the pcap or the tshark/tcpdump -A text, and what each protocol proves.
+## NAT and port forwarding — the rule, the two-sided capture, and the explanation.
+## Take it home — the upstream switch and the evidence that the router still works.
+
+
+## Disclaimer
+For this module we made the whole setup on my laptop, so I will mostly supply the screenshots as evidence of our progress, while Jan will mostly provide the correspondings texts.
+
 ## Router Baseline
-Jan has documented our progress of setting up the router:
 [a link]()
-I will mostly supply the the screenshots, because we worked on my laptop.
+
 
 ## Round 1: Flash OpenWrt — from factory to your router
 
@@ -27,58 +39,34 @@ link zu tcpdumb md
 ## Round 6
 link zu module 02 readme jan
 
+## Round 7
+We tried to follow the insctructions but failed at the step to set wan active and read the wan ip adress. You con see in the round 7 pictures.
+
+As a personal experience i already did port forwarding for a personal roleplaying/pen-and-paper session with friends, so they could connect with their computers to mine via FoundryVTT.
 
 ## Round 8
 For evidence look at the following pictures:
 
+## Round 9
+I would run upstream OpenWrt on a router I depend on when it is explicitly supported, there is a reliable recovery method, and I can maintain regular updates and backups. I would avoid it for critical use if a required hardware feature is unsupported or no tested recovery procedure exists. The extra control is worthwhile for a lab or secondary router, while vendor firmware may be preferable for someone who needs integrated support and a guaranteed working telephone or Wi-Fi feature.
+
+Extroot and installing packages through the CLI would be impossible or much harder with locked vendor firmware, as they require an accessible package manager and writable overlay configuration. I would miss vendor-specific features such as Cudy's travel-router mode, automatic firmware support, or the vendor mobile application.
 
 
 ## Learning Goals
 
-> **How to use the learning goals.** Copy the module's learning goals from the course workbook into the block below. Keep the `LG1`, `LG2`, … IDs and a one-word keyword. In each task, write `Proves: LG2` (or link to `[LG2](#lg2)`) so you can find the evidence quickly at checkpoint time. In the **Evidence** line under each goal, link to the task that proves it.
+## Learning Goal 1
+Look at Router Baseline and Round 1, 4, 6
 
-<a id="lg1"></a>
-### LG1 — `<keyword>`
+## Learning Goal 2
+Look at Round 5
 
-<copy the goal here>
+## Learning Goal 3
+Round 1-4, 8
 
-**Evidence:** [Task 1](#task-1)
+## Learning Goal 4
+Look at Round 5
 
-<a id="lg2"></a>
-### LG2 — `<keyword>`
-
-<copy the goal here>
-
-**Evidence:** [Task 2](#task-2)
-
-<a id="lg3"></a>
-### LG3 — `<keyword>`
-
-<copy the goal here>
-
-**Evidence:** [Task 3](#task-3)
-
-<a id="task-1"></a>
-## Task 1 — `<short title>`
-
-**Proves:** [LG1](#lg1)
-
-This task was executed by myself.
-
-<a id="task-2"></a>
-## Task 2 — `<short title>`
-
-**Proves:** [LG2](#lg2)
-
-This task was executed by my partner. The implementation was about ...
-It is [here](https://github.com/partner/iot-portfolio/Module02/README.md#task-2).
-
-<a id="task-3"></a>
-## Task 3 — `<short title>`
-
-**Proves:** [LG3](#lg3)
-
-...
 
 ## Reflection 2
 
